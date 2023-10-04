@@ -13,16 +13,16 @@ class StaticController extends Controller
 
     public function about()
     {
-        return "<h1>About Page</h1>";
+        return view('about');
     }
 
     public function products()
     {
-        return "<h1>Products Page</h1>";
+        return view('products');
     }
 
     public function contact()
     {
-        return "<h1>Contact Page</h1>";
+        return view('contact');
     }
 }
