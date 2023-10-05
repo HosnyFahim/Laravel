@@ -5,3 +5,33 @@ body {
 nav a {
     padding: 0.5rem;
 }
+
+li {
+    list-style-type: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+.show-link {
+    list-style-type: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+.show-link:hover {
+    cursor: pointer;
+    background-color: rgb(250, 216, 174);
+    transition: 200ms all ease-in-out;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(250, 216, 174);
+    transition: 200ms all ease-in-out;
+}
