@@ -14,10 +14,10 @@ use App\Http\Controllers\StaticController;
 |
 */
 
-Route::get('/', [StaticController::class, "index"]);
-Route::get('/about', [StaticController::class, 'about']);
-Route::get('/products', [StaticController::class, 'products']);
-Route::get('/contact', [StaticController::class, 'contact']);
+Route::get('/', [StaticController::class, "index"])->name('home.index');
+Route::get('/about', [StaticController::class, 'about'])->name('home.about');
+Route::get('/products', [StaticController::class, 'products'])->name('home.products');
+Route::get('/contact', [StaticController::class, 'contact'])->name('home.contact');
 
 /* The code `Route::get('/store/{category?}/{item?}', function ( = null,  = null) { ...
 }` is defining a route in Laravel. */
